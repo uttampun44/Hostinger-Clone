@@ -343,5 +343,16 @@ h2{
 
 // Desktop screen
 @media (min-width: 1200px) and (max-width: 1440px){
-    
+    .hero-child{
+        max-width: 1000px !important;
+    }
+    .agencyreviews{
+        max-width: 1000px !important;
+    }
+    .web-hosting{
+        max-width: 1000px !important;
+    }
+   .all-in{
+     max-width: 1000px !important;
+   }
 }
