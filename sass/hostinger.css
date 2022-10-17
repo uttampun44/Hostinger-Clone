@@ -50,6 +50,7 @@ h2 {
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
   justify-content: space-between;
+  background-color: var(--main-background-color);
 }
 .nav-bar .logo-section {
   display: flex;
@@ -179,6 +180,7 @@ h2 {
   margin: auto;
   padding-bottom: 4rem;
   max-width: 1200px;
+  flex-wrap: wrap;
 }
 .agencyreviews p {
   font-weight: 100;
@@ -277,6 +279,7 @@ h2 {
   margin-bottom: 2.5rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .all-in .parent-all-in {
   display: flex;

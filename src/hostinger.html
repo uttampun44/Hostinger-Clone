@@ -23,6 +23,7 @@
         <img src="../img/ukraine-flag-1x.webp">
           <p>We stand with Ukraine. To make an impact, please consider</p><a href="#">donating.</a>
     </div>
+
     <nav class="nav-bar">
         
         <div class="logo-section">
@@ -163,5 +164,32 @@
                       </div>
               </section>
       </main>
+
+      <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+       <script>
+
+$(document).ready(function(){
+            $(window).scroll(function(){
+                 var scroll = $(window).scrollTop();
+
+                  if(scroll > 100){
+                        $(".nav-bar").css("background" , "white");
+                        $(".nav-bar").css("position" , "fixed",);
+                        $('.nav-bar').css("top", "0px");
+                        $('.nav-bar').css("width", "100%");
+                      
+                  }else{
+                        $('.nav-bar').css("position", "unset");	
+                        $('.nav-bar').css("background", "#673de6");
+                        $('.nav-menu').css("color", "white");
+                  }
+            });
+        });
+
+       </script>
+       
 </body>
 </html>
