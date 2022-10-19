@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../sass/hostinger.css">
 
     <!-- js -->
-    <script text="javascript" src="../js/hostinger.js"></script>
+    <script text="javascript" src="../js/hostinger.js" defer></script>
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -32,19 +32,19 @@
         </div>
         <div class="nav-menu">
               <ul>
-                   <li><a href="#" class="link">Hosting</a></li>
-                   <li><a href="#" class="link">VPS</a></li>
-                   <li><a href="#" class="link">Email</a></li>
-                   <li><a href="#" class="link">Domain</a></li>
+                   <li><a href="#">Hosting</a></li>
+                   <li><a href="#" >VPS</a></li>
+                   <li><a href="#">Email</a></li>
+                   <li><a href="#">Domain</a></li>
                   
               </ul>
 
               <div class="login-div">
-                <a href="#" id="login" class="link">Login</a></li>
+                <a href="#" id="login">Login</a></li>
               </div>
 
               <div class="cart">
-                <i class="fas fa-shopping-cart" class="shopping"></i>
+                <i class="fas fa-shopping-cart"></i>
               </div>
         </div>
        
@@ -164,37 +164,6 @@
                       </div>
               </section>
       </main>
-
-      <script
-  src="https://code.jquery.com/jquery-3.6.1.js"
-  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
-       <script>
-
-$(document).ready(function(){
-            $(window).scroll(function(){
-                 var scroll = $(window).scrollTop();
-
-                  if(scroll > 50){
-                        $(".nav-bar").css("background" , "white");
-                        $(".nav-bar").css("position" , "fixed",);
-                        $('.nav-bar').css("top", "0px");
-                        $('.nav-bar').css("width", "100%");
-                        $('.nav-bar').css("padding-top", "unset");
-                        $('.nav-bar').css("padding-bottom", "unset");
-                        $('.hero-child').css("margin-top", "5rem");
-                        $('.link').css("color", "#1d1e20");
-                        $('i').css("color", "#1d1e20");
-                  }else{
-                        $('.nav-bar').css("position", "unset");	
-                        $('.nav-bar').css("background", "#673de6");
-                        $('.link').css("color", "white");
-                        $('i').css("color", "white");
-                  }
-            });
-        });
-
-       </script>
-       
+      
 </body>
 </html>

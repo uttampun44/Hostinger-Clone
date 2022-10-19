@@ -88,13 +88,36 @@ h2 {
   color: white;
 }
 
+nav.sticky {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  padding-top: unset;
+  padding-bottom: unset;
+  box-shadow: 0px 3px 8px 0px #2f1c6a;
+}
+nav.sticky a {
+  color: #1d1e20;
+}
+nav.sticky i {
+  color: #1d1e20 !important;
+}
+
+#login {
+  color: #fff;
+}
+
+#login.login {
+  color: #1d1e20;
+}
+
 .login-div {
   padding: 1rem;
-  border: 2px solid;
+  border: 2px solid #fff;
 }
 .login-div a {
   text-decoration: none;
-  color: #1d1e20;
   font-family: var(--main-font-family);
   font-weight: 500;
   text-decoration: none;
