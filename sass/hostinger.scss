@@ -21,6 +21,12 @@ h2{
     font-family: var(--main-font-family);
     font-family: 600;
 }
+h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: var(--main-font-family);
+    color: var(--primary-font-color)
+}
 
 // ********top*****
 .scroll-bar{
@@ -93,6 +99,7 @@ h2{
 nav.sticky{
     position: fixed;
     top: 0;
+    z-index: 1;
     background-color: white;
     width: 100%;
       padding-top: unset;
@@ -135,7 +142,7 @@ nav.sticky{
         align-items: center;
         max-width: 1200px;
         gap: 2rem;
-        margin-top: 8rem;
+        margin-top: 10rem;
         margin-bottom: 6rem;
                 .headings{
                     // line-height: 2.5rem;
@@ -312,7 +319,7 @@ nav.sticky{
          }
        
          button:hover{
-            background-color: #2f2450;
+            background-color: #7750eb;
          }
          .web-picture-left{
             img{
@@ -345,15 +352,10 @@ nav.sticky{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        max-width: 45%;
-        padding-left: 2rem;
+        max-width: 40%;
+        padding-left: .5rem;
         margin-top: 5rem;
-        h3{
-           font-size: 2.2rem;
-           color: var(--primary-font-color);
-           font-weight: 700;
-           font-family: var(--main-font-family);
-        }
+        
           i{
             color: #00b090;
           }
@@ -362,9 +364,9 @@ nav.sticky{
           }
      }
      .all-in-img{
+        width: 50%;
           img{
-             width: 550px;
-             height: 400px;
+            width: 100%;
              object-fit: fill;
           }
      }
@@ -384,7 +386,7 @@ nav.sticky{
   .trust-pilot{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     .child-trust-pilot{
         background-color: #fafbff;
@@ -420,21 +422,16 @@ nav.sticky{
     }
      .child-maximize{
         width: 50%;
-        padding-left: 2rem;
+      
         img{
             width: 100%;
             object-fit: fill;
         }
      }
     .hostinger-website{
-        width: 45%;
+        width: 40%;
         padding-left: 1rem;
-         h4{
-            font-size: 2.2rem;
-            font-weight: 700;
-            font-family: var(--main-font-family);
-            color: var(--primary-font-color)
-         }
+
          img{
             width: 1rem;
             position: relative;
@@ -456,7 +453,7 @@ nav.sticky{
 // bitcha planet logosection css
 .bitcha-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
     max-width: 1208px;
@@ -503,6 +500,181 @@ nav.sticky{
             line-height: 1.7;
             margin-top: 1.5rem;
         } 
+    }
+}
+
+// our team section 
+.our-team-parent{
+    max-width: 1208px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    padding-left: .8rem;
+    .our-team-child{
+        align-self: center;
+        width: 45%;
+        padding-top: 1rem;
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: var(--main-font-family);
+            color: var(--primary-font-color);
+            line-height: 2.7;
+        }
+    }
+    .our-team-img{
+        width: 45%;
+
+        img{
+            width: 100%;
+            object-fit: fill;
+        }
+    }
+}
+
+// website owner div
+
+.join-website-owner{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+         
+    .parent-website-owner{
+        display: grid;
+        row-gap: 2rem;
+        text-align:center;
+        button{
+            background-color: var(--main-background-color);
+            color: var(--main-font-color);
+             font-size: 1rem;
+             font-family: var(--main-font-family);
+             font-weight: 700;
+             padding: 1rem 2rem 1rem 2rem;
+             border-radius: .3rem;
+             border: none;
+             box-shadow: 0 1px 8px rgb(0 0 0 / 16%);
+             width: 50%;
+             margin: auto;
+            }
+            button:hover{
+                background-color: #7750eb;
+            }
+            span{
+                 font-family: var(--main-font-family);
+                 font-weight: 400;
+            }
+            img{
+                width: 1rem;
+                position: relative;
+                left: 120px;
+                top: 50px;
+                object-fit: fill;
+            }
+    }
+}
+
+// advance security section
+.security{
+    background-color: var(--main-background-color);
+    
+    .advance-security{
+        display: grid;
+        justify-content: center;
+        margin-top: 5rem;
+        max-width: 1208px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+        .security-div{
+            display: flex;
+            justify-content: space-between;     
+            .advance-security-img{
+                width: 55%;
+
+                img{
+                    width: 100%;
+                    object-fit: fill;
+                }
+            }
+            .advance-security-child{
+                width: 40%;
+                padding-right: .2rem;
+                h3{
+                color: var(--main-font-color) !important;
+                font-size: 2.2rem;
+                margin-bottom: 2rem;
+                }
+                p{
+                    color: var(--main-font-color);
+                    font-weight: 400;
+                    font-family: var(--main-font-family);
+                    line-height: 2;
+                }
+            }
+        }
+
+    }
+
+    // hostinger ssl
+    .ssl-hostinger{
+        display: flex;
+        justify-content: space-around;
+         margin-top: 2rem;
+        .ssl{
+            background-color: #5025d1;
+            padding: 2rem 2.5rem 2rem 2.5rem;
+            img{
+                width: 220px;
+                height: auto;
+                object-fit: fill;
+            }
+            p{
+                color: var(--main-font-color);
+                font-weight: 400;
+                font-family: var(--main-font-family);
+            }
+           
+        }
+    }
+}
+
+// client testimonials section
+
+.client-testimonials{
+    max-width: 1208px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    .client-testimonials{
+        display: grid;
+    }
+    .free-migration{
+        display: flex;
+        justify-content: space-around;
+        // padding-right: 1rem;
+        // padding-left: 1rem;
+        .parent-migration{
+            align-self: center;
+            width: 40%;
+            padding-right: 2rem;
+        }
+        p{
+            line-height: 2;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #727586;
+            font-family: var(--main-font-family);
+        }
+        .parent-img{
+            width: 48%;
+            img{
+                width: 100%;
+                object-fit: fill;
+            }
+        }
     }
 }
 // Desktop screen
