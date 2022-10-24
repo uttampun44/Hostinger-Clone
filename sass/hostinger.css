@@ -604,6 +604,7 @@ nav.sticky i {
   color: var(--main-font-color);
   font-weight: 400;
   font-family: var(--main-font-family);
+  line-height: 1.5;
 }
 
 .client-testimonials {
@@ -618,6 +619,7 @@ nav.sticky i {
 .client-testimonials .free-migration {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }
 .client-testimonials .free-migration .parent-migration {
   align-self: center;
@@ -640,17 +642,151 @@ nav.sticky i {
      object-fit: fill;
 }
 
+.featured-client {
+  text-align: center;
+  margin-top: 5rem;
+}
+
 @media (min-width: 1200px) and (max-width: 1440px) {
   .hero-child {
-    max-width: 1200px !important;
+    max-width: 1100px !important;
   }
   .agencyreviews {
-    max-width: 1200px !important;
+    max-width: 1100px !important;
   }
   .web-hosting {
-    max-width: 1200px !important;
+    max-width: 1100px !important;
   }
   .all-in {
     max-width: 1100px !important;
+  }
+  .hostinger-maximize {
+    max-width: 1100px !important;
+  }
+  .bitcha-section {
+    max-width: 1100px !important;
+  }
+  .our-team-parent {
+    max-width: 1100px !important;
+  }
+  .pilot {
+    max-width: 1100px !important;
+  }
+  .advance-security {
+    max-width: 1100px !important;
+  }
+  .ssl-hostinger {
+    justify-content: space-evenly !important;
+  }
+  .client-testimonials {
+    max-width: 1100px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .hero-child {
+    max-width: 1024px !important;
+  }
+  .agencyreviews {
+    max-width: 1024px !important;
+  }
+  .web-hosting {
+    max-width: 1024px !important;
+  }
+  .all-in {
+    max-width: 1024px !important;
+  }
+  .hostinger-maximize {
+    max-width: 1024px !important;
+  }
+  .bitcha-section {
+    max-width: 1024px !important;
+    flex-wrap: nowrap !important;
+    gap: 1rem;
+  }
+  .hero-child {
+    max-width: 1024px !important;
+  }
+  .agencyreviews {
+    max-width: 1024px !important;
+  }
+  .web-hosting {
+    max-width: 1024px !important;
+  }
+  .all-in {
+    max-width: 1024px !important;
+  }
+  .hostinger-maximize {
+    max-width: 1024px !important;
+  }
+  .our-team-parent {
+    max-width: 1024px !important;
+  }
+  .pilot {
+    max-width: 1024px !important;
+  }
+  .trust-pilot {
+    flex-wrap: nowrap !important;
+    padding: 1rem 1rem 1rem 1rem !important;
+    gap: 1rem;
+  }
+  .advance-security {
+    max-width: 1024px !important;
+  }
+  .ssl-hostinger {
+    justify-content: space-evenly !important;
+  }
+  .client-testimonials {
+    max-width: 1024px !important;
+  }
+}
+@media (min-width: 820px) and (max-width: 1024px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  .hero-child {
+    max-width: 768px !important;
+  }
+  .hero-child .headings h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero-child .headings .hero-img {
+    width: 60% !important;
+  }
+  .agencyreviews {
+    max-width: 768px !important;
+    flex-wrap: nowrap !important;
+  }
+  .web-hosting {
+    max-width: 768px !important;
+  }
+  .all-in {
+    max-width: 768px !important;
+  }
+  .trust-pilot {
+    max-width: 768px !important;
+    flex-wrap: nowrap !important;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+  }
+  .hostinger-maximize {
+    max-width: 768px !important;
+  }
+  .bitcha-section {
+    max-width: 768px !important;
+    flex-wrap: nowrap !important;
+    gap: 1rem;
+  }
+  .our-team-parent {
+    max-width: 768px !important;
+  }
+  .advance-security {
+    max-width: 768px !important;
+  }
+  .ssl-hostinger {
+    gap: 1rem !important;
+  }
+  .client-testimonials {
+    max-width: 768px !important;
   }
 }/*# sourceMappingURL=hostinger.css.map */
