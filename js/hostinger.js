@@ -27,6 +27,6 @@ window.addEventListener('scroll', () =>{
 
 // getstarted button on click event
 
-let getstarted = document.getElementById('started');
+
 
 
