@@ -13,7 +13,7 @@
  --primary-font-color: #2f1c6a;
  --icon-color: #00b090;
 }
-body{
+html{
     scroll-behavior: smooth;
 }
 h2{
@@ -561,6 +561,10 @@ nav.sticky{
             }
             button:hover{
                 background-color: #7750eb;
+            }
+            button a{
+                color: #fff;
+                text-decoration: none;
             }
             span{
                  font-family: var(--main-font-family);

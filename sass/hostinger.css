@@ -14,7 +14,7 @@
   --icon-color: #00b090;
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
@@ -532,6 +532,10 @@ nav.sticky i {
 }
 .join-website-owner .parent-website-owner button:hover {
   background-color: #7750eb;
+}
+.join-website-owner .parent-website-owner button a {
+  color: #fff;
+  text-decoration: none;
 }
 .join-website-owner .parent-website-owner span {
   font-family: var(--main-font-family);
