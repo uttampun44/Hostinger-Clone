@@ -938,6 +938,15 @@ footer .card .card-collection a {
   .client-testimonials {
     max-width: 1100px !important;
   }
+  .client-stories {
+    max-width: 1100px !important;
+  }
+  .footer-collection {
+    max-width: 1100px !important;
+  }
+  .footer-details {
+    max-width: 1024px !important;
+  }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
   .hero-child {
@@ -995,10 +1004,24 @@ footer .card .card-collection a {
   .client-testimonials {
     max-width: 1024px !important;
   }
+  .client-stories {
+    max-width: 1024px !important;
+  }
+  .footer-collection {
+    max-width: 1024px !important;
+  }
+  .footer-details {
+    max-width: 1024px !important;
+  }
 }
 @media (min-width: 820px) and (max-width: 1024px) {
-  h3 {
-    font-size: 1.5rem !important;
+  .all-in h3 {
+    font-size: 1.2rem !important;
+  }
+  .all-in .website-solution {
+    line-height: 1.2;
+    position: unset;
+    bottom: unset;
   }
   .hero-child {
     max-width: 768px !important;
@@ -1045,5 +1068,174 @@ footer .card .card-collection a {
   }
   .client-testimonials {
     max-width: 768px !important;
+  }
+  .client-stories {
+    max-width: 768px !important;
+    flex-wrap: nowrap !important;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    display: flex;
+  }
+  .client-stories {
+    max-width: 768px !important;
+  }
+  .footer-collection {
+    max-width: 768px !important;
+    flex-wrap: wrap !important;
+    gap: 2rem;
+  }
+  .footer-details {
+    max-width: 768px !important;
+  }
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .hero-child {
+    flex-wrap: wrap !important;
+    text-align: center;
+  }
+  .hero-child h1 {
+    font-size: 1.5rem;
+  }
+  .hero-child .hero-img {
+    width: 80% !important;
+  }
+  .web-hosting {
+    max-width: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .trust-pilot {
+    gap: 1rem;
+  }
+  .hostinger-maximize {
+    justify-content: center !important;
+  }
+  .child-maximize {
+    width: unset !important;
+    text-align: center;
+  }
+  .child-maximize img {
+    width: 60% !important;
+  }
+  .parent-all-in {
+    max-width: unset !important;
+  }
+  .parent-all-in h3 {
+    text-align: center !important;
+  }
+  .website-solution {
+    position: unset !important;
+    bottom: unset !important;
+    display: grid;
+    text-align: center;
+  }
+  .all-in {
+    gap: 2rem;
+    justify-content: center !important;
+  }
+  .all-in-img {
+    width: unset !important;
+    display: flex;
+    justify-content: center;
+  }
+  .all-in-img img {
+    width: 60% !important;
+  }
+  .hostinger-website {
+    width: unset !important;
+    display: grid;
+    justify-content: center;
+  }
+  .bitcha-section {
+    gap: 1rem;
+  }
+  .security-div {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .advance-security-img {
+    width: unset !important;
+    text-align: center;
+  }
+  .advance-security-img img {
+    width: 60% !important;
+  }
+  .advance-security-child {
+    width: unset !important;
+    text-align: center;
+  }
+  .our-team-parent {
+    flex-wrap: wrap !important;
+  }
+  .our-team-child {
+    width: unset !important;
+    text-align: center;
+  }
+  .our-team-img {
+    width: unset !important;
+    text-align: center;
+  }
+  .our-team-img img {
+    width: 60% !important;
+  }
+  .ssl-hostinger {
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .free-migration {
+    flex-wrap: wrap !important;
+  }
+  .parent-migration {
+    width: unset !important;
+  }
+  .parent-img {
+    width: unset !important;
+  }
+  .parent-img img {
+    width: 60% !important;
+  }
+  .client-stories {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .footer-collection {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .card {
+    row-gap: 1rem;
+  }
+  .social-links {
+    justify-content: center !important;
+  }
+  .footer-copyrights {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+  }
+  .footer-collection {
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 480px;
+  }
+  .footer-copyrights p {
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 480px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  nav.sticky {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 }/*# sourceMappingURL=hostinger.css.map */
