@@ -21,12 +21,29 @@ window.addEventListener('scroll', () =>{
   scroll.classList.toggle('sticky', window.scrollY >50);
   let login = document.getElementById('login');
   login.classList.toggle('login', window.scrollY >50);
-  
-  
 });
 
-// getstarted button on click event
+// hamburger menu on mobile view
+let hamburger = document.getElementById('hamburger');
+let navmenu  = document.querySelector('.nav-menu');
+let times =   document.getElementById('times');
 
+hamburger.addEventListener('click', () =>{
+ navmenu.classList.toggle('navbar');
+ navmenu.classList.remove();
+ console.log(navmenu);
+ 
+  if(hamburger){
+    for(let i = 0; i<hamburger.clientHeight; i++){
+    hamburger.style.display = "none";
+    times.style.display = "block";
+  }
+}
+  });
 
-
+  times.addEventListener('click', function(){
+      hamburger.style.display = "block";
+      times.style.display = "none"; 
+      console.log("Hello");
+  });
 

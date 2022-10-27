@@ -129,6 +129,9 @@ nav.sticky{
             text-decoration: none;
            }
 }
+.bars{
+    display: none;
+}
 
 // ************hero section**************
 .hero{
@@ -1298,5 +1301,56 @@ footer{
    nav.sticky{
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
+   }
+   .nav-menu.navbar{
+     visibility: visible;
+     display: block;
+     position: fixed;
+     width: 100vw;
+     height: 100vh;
+     top: 70px;
+     background-color: #7750eb;
+     right: 0px;
+     ul{
+        display: grid;
+       justify-content: center;
+       padding-top: 5rem;
+       text-align: center;
+}
+     
+     a{
+        display: block;
+        font-size: 2rem;
+        color: var(--main-font-color);
+        font-weight: 700;
+     }
+   }
+
+   .login-div{
+    text-align: center;
+    padding-top: 2rem;
+    border: none !important;
+    a{
+        color: var(--main-font-color) !important;
+       
+     }
+   }
+   .cart{
+    text-align: center;
+    i{
+        color: var(--main-font-color) !important;
+        font-size: 2rem;
+    }
+   }
+   .bars{
+    display: block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    i{
+        font-size: 1.5rem;
+    }
+   }
+   #times{
+    display: none;
    }
 }
