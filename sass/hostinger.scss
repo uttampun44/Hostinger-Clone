@@ -771,18 +771,189 @@ footer{
         margin-left: auto;
         margin-right: auto;
         display: flex;
+        justify-content: space-evenly;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .card{
         display: grid;
+        max-width: 300px;
+        max-height: 270px;
         .card-img{
             img{
                 width: 160px;
+                padding-bottom: 1rem;
+            }
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+                font-family: var(--main-font-family);
+                color: #fff;
             }
         }
         .card-collection{
             display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            max-width: 270px;
+            justify-content: space-around;
+            img{
+                width: 60px;
+                object-fit: contain;
+                height: 2rem;
+                background-color: #fff;
+            }
+            a{
+                text-decoration: none;
+                color: var(--main-font-color);
+                font-family: var(--main-font-family);
+                font-size: 1rem;
+                font-weight: 700;
+            }
         }
     }
+}
+
+// hostinger footer details
+.hosting {
+    ul{
+        line-height: 1.5;
+    }
+    h5{
+        font-size: 1.2rem;
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        color: var(--main-font-color);
+    }
+    a{
+        font-size: .8rem;
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        color: var(--main-font-color);
+        text-decoration: none;
+    }
+}
+.domains{
+    h5{
+        font-size: 1.2rem;
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        color: var(--main-font-color);
+    }
+    a{
+        font-size: .8rem;
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        color: var(--main-font-color);
+        text-decoration: none;
+    }
+    ul{
+        line-height: 1.5;
+    }
+}
+.information{
+    h5{
+        font-size: 1.2rem;
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        color: var(--main-font-color);
+    }
+    a{
+        font-size: .8rem;
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        color: var(--main-font-color);
+        text-decoration: none;
+    }
+    ul{
+        line-height: 1.5;
+    }
+}
+.company{
+    h5{
+        font-size: 1.2rem;
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        color: var(--main-font-color);
+    }
+    a{
+        font-size: .8rem;
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        color: var(--main-font-color);
+        text-decoration: none;
+    }
+    ul{
+        line-height: 1.5;
+    }
+}
+.legal{
+    h5{
+        font-size: 1.2rem;
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        color: var(--main-font-color);
+    }
+    a{
+        font-size: .8rem;
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        color: var(--main-font-color);
+        text-decoration: none;
+    }
+    ul{
+        line-height: 1.5;
+    }
+}
+.help{
+    h5{
+        font-size: 1.2rem;
+        font-family: var(--main-font-family);
+        font-weight: 700;
+        color: var(--main-font-color);
+    }
+    a{
+        font-size: .8rem;
+        font-family: var(--main-font-family);
+        font-weight: 400;
+        color: var(--main-font-color);
+        text-decoration: none;
+    }
+    ul{
+        line-height: 1.5;
+    }
+}
+
+// footer social links
+.footer-details{
+    max-width: 1208px;
+    margin-left: auto;
+    margin-right: auto;
+  .social-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    i{
+        background-color: #fff;
+        font-size: 1.2rem;
+        padding: 4px;
+        border-radius: 4px;
+    }
+   }
+}
+
+// footer copyrights
+.footer-copyrights{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+   padding-top: 2rem;
+   p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: var(--main-font-family);
+   }
 }
 // Desktop screen
 @media (min-width: 1200px) and (max-width: 1440px){

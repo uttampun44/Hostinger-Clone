@@ -731,15 +731,177 @@ footer .footer-collection {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 footer .card {
   display: grid;
+  max-width: 300px;
+  max-height: 270px;
 }
 footer .card .card-img img {
   width: 160px;
+  padding-bottom: 1rem;
+}
+footer .card .card-img p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--main-font-family);
+  color: #fff;
 }
 footer .card .card-collection {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 270px;
+  justify-content: space-around;
+}
+footer .card .card-collection img {
+  width: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 2rem;
+  background-color: #fff;
+}
+footer .card .card-collection a {
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-family: var(--main-font-family);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hosting ul {
+  line-height: 1.5;
+}
+.hosting h5 {
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.hosting a {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+.domains h5 {
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.domains a {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+.domains ul {
+  line-height: 1.5;
+}
+
+.information h5 {
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.information a {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+.information ul {
+  line-height: 1.5;
+}
+
+.company h5 {
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.company a {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+.company ul {
+  line-height: 1.5;
+}
+
+.legal h5 {
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.legal a {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+.legal ul {
+  line-height: 1.5;
+}
+
+.help h5 {
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.help a {
+  font-size: 0.8rem;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+.help ul {
+  line-height: 1.5;
+}
+
+.footer-details {
+  max-width: 1208px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-details .social-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.footer-details .social-links i {
+  background-color: #fff;
+  font-size: 1.2rem;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.footer-copyrights {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+.footer-copyrights p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: var(--main-font-family);
 }
 
 @media (min-width: 1200px) and (max-width: 1440px) {
